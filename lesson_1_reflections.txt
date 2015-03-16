@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It easily displayed the old lines as well as the changes that were made to them.
+It saved me from having to look through the entire file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would allow you to easily pinpoint differences when new bugs are introduced by comparing to
+the previous versions.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Anything that is done manually leaves the opportunity for human error, such as forgetting to commit.
+The advantage of going this route is that the person that doesn't forget has more control over when the commits
+occur, and has more control of their different versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+It is probably based on their intended uses.  The purpose of Git is to store code, so it makes sense that it would 
+track all of the files that might affect a program.  Docs, on the other hand, was created with the intention of keeping
+track of whatever document is being worked on.  Seperate documents are less likely to be reliant upon each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+You use the git log command to see the history of the commits, and you use git diff to see the differences between
+an old commit and a newer version.
+
+How might using version control make you more confident to make changes that could break something?
+
+It gives you the safety net of knowing that if a problem is introduced, you can just go back to the previous
+version that was working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to try to use git to manage a program that I am currently working on.
+
