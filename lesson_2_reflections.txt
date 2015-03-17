@@ -8,3 +8,23 @@ How is the staging area different from the working directory and the repository?
 The working directory is where all of the files are currently stored.  The staging area is a place for git to place
 files that are to be commited.  These files are still physically stored in the working directory. The value of the 
 staging area is the ability to commit particular files rather than the whole directory at one time.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to setup only the files that are relevant to each logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to try out some changes that you might not want to be in program for sure.  Branches allow you to make 
+those changes and test them out without messing up what already works.
+
+How do the diagrams help you visualize the branch structure?
+
+They allow you to see visually where branches will be affected with commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic merging done by Git is a much faster process than what would be required to do them manually.  While Git
+can quickly compare two commits, identify the differences, and point these out to the user, doing them manually would 
+require a person to catch these differences and be much more time consuming.
+
