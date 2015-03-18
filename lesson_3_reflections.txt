@@ -24,3 +24,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Without Git, collaboration would require a lot of coordination between parties.  There could probably be some sort of 
 server set up to store all of the different versions of the files, but someone would have to verify and check the 
 differences between them.  With all of that it mind, it seems that Git is definitely the way to go.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch when your changes are going to change a feature in the master
+branch.  This gives everyone a chance to look over the changes before committing to them, in case there are errors.
+
