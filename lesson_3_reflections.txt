@@ -14,3 +14,7 @@ Branches are commits that are created after a certain point in the main project,
 They are mainly used to make changes without affecting the main project.  Clones make a copy of a project either from
 a remote location, or locally.  Forks are clones that are done exclusively on GitHub.  They create a copy of a repository
 on your GitHub profile.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows you to have a copy of all of the changes on your computer in case you are going to be offline for awhile.
